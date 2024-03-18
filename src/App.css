@@ -14,7 +14,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url(./pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +38,26 @@
     transform: rotate(360deg);
   }
 }
+
+input{
+  border: none;
+  border-radius: 7px;
+  width: 500px;
+  height: 25px;
+}
+
+input:active{
+  border: none;
+}
+
+button{
+  border: none;
+  border-radius: 7px;
+  width: 70px;
+  height: 28px;
+  color: white;
+  background-color: #FA9B0A;
+  cursor: pointer;
+}
+
+
